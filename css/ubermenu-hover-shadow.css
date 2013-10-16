@@ -1,0 +1,25 @@
+/**
+ * UberMenu Hover Shadow Styles
+ *
+ * @since 1.0.0
+ * @author Laurens Offereins
+ *
+ * @package UberMenu Hover Shadow
+ * @subpackage Styles
+ */
+
+.umhs.ubermenu-hover-bg {
+	position: absolute;
+	width: 100%;
+	background-color: rgba( 0, 0, 0, 0 );
+	-webkit-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+	-ms-transition: background-color 0.3s;
+	-o-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+	z-index: 95; /* #megaUber sits on z-index: 100; */
+}
+
+	.umhs.ubermenu-hover-bg.darken {
+		background-color: rgba( 0, 0, 0, 0.4 );
+	}
